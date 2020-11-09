@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Tailwind Quick Start</title>
+    <link rel="stylesheet" href="../dist/styles.css" />
+  </head>
+  <body class="bg-primary min-h-screen flex justify-center items-center">
+    <div class="py-16 text-center">
+      <div class="mb-6">
+        <h1 class="font-display text-primary mb-4 text-5xl capitalize">tailwind quickstart with theme color switch</h1>
+      </div>
+      <div>
+        <button id="theme-btn" class="rounded bg-inverse text-inverse px-6 py-3 text-xl font-medium mx-3">Switch Theme</button>
+        <button class="rounded bg-green-600 text-primary-soft px-6 py-3 text-xl font-medium mx-3">Normal Button</button>
+      </div>
+      <div class="mt-8">
+        <a class="text-default-soft hover:text-primary hover:underline" href="#">View on GitHub </a>
+      </div>
+    </div>
+
+    <script>
+      const html = document.documentElement;
+      const btn = document.getElementById("theme-btn");
+      btn.addEventListener("click", () => {
+        html.classList.toggle("theme-dark");
+      });
+    </script>
+  </body>
+</html>
