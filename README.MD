@@ -2,6 +2,8 @@
 
 A simple tailwind boilerplate with darkmode, and optimizations for production.
 
+[LIVE DEMO](https://tailwind-darkmode-start.vercel.app/)
+
 ## Installation
 
 Clone or download repo and install dependencies
