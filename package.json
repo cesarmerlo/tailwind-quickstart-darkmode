@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build:css:dev": "postcss tailwind.css -o dist/styles.css",
-    "build:css:prod": "cross-env NODE_ENV=production postcss tailwind.css -o dist/styles.css"
+    "build:css:dev": "postcss src/tailwind.css -o dist/styles.css",
+    "build:css:prod": "cross-env NODE_ENV=production postcss src/tailwind.css -o dist/styles.css"
   },
   "devDependencies": {
     "autoprefixer": "9.0.0",

@@ -1,5 +1,7 @@
 @tailwind base;
 
+/** purgecss start ignore */
+
 :root {
     --bg-primary: #ffffff;
     --bg-secondary: #edf0f7;
@@ -14,7 +16,6 @@
     --text-inverse-soft: #edf0f7;
   }
   
-  /** purgecss start ignore */
   .theme-dark {
     --bg-primary: #212b46;
     --bg-secondary: #151a30;
@@ -28,6 +29,7 @@
     --text-inverse: #212b46;
     --text-inverse-soft: #1b2139;
   }
+  
   /** purgecss end ignore */
   
 @tailwind components;
